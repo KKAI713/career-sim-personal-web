@@ -1,0 +1,29 @@
+.nav-bar {
+  border: 1px solid black;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  background-color: yellow;
+  align-items: right;
+}
+.nav-bar * {
+  display: inline;
+}
+.nav-name {
+  border: 1px solid black;
+  justify-content: left;
+  text-align: left;
+}
+.nav-link {
+  border: 1px solid black;
+  text-align: right;
+  display: flexbox;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
