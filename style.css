@@ -1,29 +1,99 @@
-.nav-bar {
-  border: 1px solid black;
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 10vh;
-  background-color: yellow;
-  align-items: right;
-}
-.nav-bar * {
-  display: inline;
-}
-.nav-name {
-  border: 1px solid black;
-  justify-content: left;
-  text-align: left;
-}
-.nav-link {
-  border: 1px solid black;
-  text-align: right;
-  display: flexbox;
-}
-ul {
-  list-style-type: none;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
   margin: 0;
   padding: 0;
+}
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: gray;
+  padding-bottom: 2vh;
+  postion: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.link-button {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+  font-size: 2vh;
+  color: white;
+  margin-top: 3vh;
+}
+.logo {
+  display: flex;
+  text-align: center;
+  margin-top: 2vh;
+  font-size: 3vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  padding-left: 2vh;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  position: relative;
+}
+.main-body {
+  margin-top: 10vh;
+  background-color: lightgray;
+}
+.home-description {
+  font-size: 3vh;
+}
+.quote {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-top: 3vh;
+  display: flex;
+  font-size: 2vh;
+  background-color: lightgray;
+  justify-content: center;
+}
+footer {
+  margin-top: auto;
+  text-align: center;
+  background-color: gray;
+  font-size: 2vh;
+  color: white;
+}
+.link-button2 {
+  color: white;
+  display: inline-block;
+  margin: 0 1vh 0 1vh;
+}
+.copyright {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.habby {
+  margin: 0vh 0vh 10vh 0vh;
+}
+.image1 {
+  float: right;
+  margin: 1vh;
+  width: 30vh;
+}
+.image2 {
+  float: left;
+  margin: 1vh;
+  width: 30vh;
+}
+.image3 {
+  float: right;
+  margin: 1vh;
+  width: 30vh;
+}
+.habby-title {
+  text-align: center;
 }
