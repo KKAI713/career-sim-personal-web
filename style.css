@@ -97,3 +97,42 @@ footer {
 .habby-title {
   text-align: center;
 }
+.project-title {
+  border-bottom: 3px solid;
+  margin: 3vh 10vh 3vh 10vh;
+  text-align: center;
+}
+.project-image1 {
+  float: right;
+  margin: 1vh;
+  width: 45vh;
+  align-content: inlineblock;
+}
+.project-image2 {
+  float: right;
+  margin: 1vh;
+  width: 45vh;
+  align-content: inlineblock;
+}
+.project-image3 {
+  float: right;
+  margin: 1vh;
+  width: 45vh;
+  align-content: inlineblock;
+}
+.project {
+  margin: 1vh 1vh 1vh 5vh;
+}
+.project-description1 {
+  background-color: white;
+  margin: 5vh 10vh 10vh 10vh;
+}
+
+.project-description2 {
+  background-color: white;
+  margin: 5vh 10vh 10vh 10vh;
+}
+.project-description3 {
+  background-color: white;
+  margin: 5vh 10vh 10vh 10vh;
+}
